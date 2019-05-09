@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    tools:context=".MainActivity">
+
+    <com.github.lzyzsd.circleprogress.ArcProgress
+        android:id="@+id/arc"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:arc_angle="280"
+        app:arc_bottom_text_size="22dp"
+        app:arc_finished_color="@color/white"
+        app:arc_max="150"
+        app:arc_progress="0"
+        app:arc_stroke_width="10dp"
+        app:arc_text_color="#FFFFFF"
+        app:arc_text_size="22dp"
+        app:arc_unfinished_color="@color/light_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_creator="@android:integer/config_longAnimTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/heart_img"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/heart"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heart_rate"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/zero_rate"
+        android:textColor="@color/color_bg"
+        android:textSize="90sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Пульсометр</string>
+    <string name="zero_rate"> </string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="bpm_text">уд.\\мин</string>
+    <string name="last_value_string">Последнее измерение</string>
+    <string name="day_pulse">Средний пульс за день</string>
+    <string name="total_step_day">Общее количество шагов</string>
+    <string name="steps">шагов</string>
+    <string name="distance_text">Пройдено за все время</string>
+    <string name="km">км</string>
+    <string name="height_string">Установите ваш рост</string>
+    <string name="cm_text">см</string>
+    <string name="age_string">Укажите ваш возраст</string>
+    <string name="switch_text">Измерять пульс в течении дня</string>
+    <string name="title_activity_charts">charts</string>
+</resources>
